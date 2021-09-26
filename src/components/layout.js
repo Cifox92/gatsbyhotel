@@ -14,7 +14,6 @@ const Layout = (props) => {
                     }
                     body {
                         font-size: 18px;
-                        font-size: 1.8rem;
                         line-height: 1.5;
                         font-family: 'PT Sans', sans-serif;
                     }
@@ -39,7 +38,7 @@ const Layout = (props) => {
                 <title>Gatsby Hotel</title>
                 <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' rel="stylesheet" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
             </Helmet>
 
